@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "215201463352",
+    "firebase_url": "https://chatapp-98d0e.firebaseio.com",
+    "project_id": "chatapp-98d0e",
+    "storage_bucket": "chatapp-98d0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215201463352:android:f7fa64311657803e",
+        "android_client_info": {
+          "package_name": "com.floramessenger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215201463352-fjqvt6u1lktr4908rqquhd40t6dbgh92.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAY-8OxyBG9_YB_dukbo6H_cbVuWvghJ7g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,75 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb-standard"
+  ],
+  "rules": {
+    "no-console": 0,
+    "linebreak-style": 0,
+    "global-require": 0,
+    "eslint linebreak-style": [
+      0,
+      "error",
+      "windows"
+    ],
+    "arrow-body-style": 0,
+    "max-len": 0,
+    "comma-dangle": 0,
+    "react/no-array-index-key": 0,
+    "react-native/no-unused-styles": 2,
+    "react-native/split-platform-components": 2,
+    "react-native/no-inline-styles": 0,
+    "react-native/no-color-literals": 0,
+    "react/jsx-wrap-multilines": 0,
+    "react/prop-types": 0,
+    "space-before-function-paren": [
+      2,
+      "never"
+    ],
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ],
+    "react/prefer-stateless-function": [
+      0,
+      {
+        "ignorePureComponents": 1
+      }
+    ],
+    "class-methods-use-this": 0,
+    "react/jsx-boolean-value": 0,
+    "jsx-a11y/tabindex-no-positive": 0,
+    "no-plusplus": 0,
+    "eqeqeq": 0,
+    "jsx-quotes": 0,
+    "semi": [
+      2,
+      "never"
+    ],
+    "react/forbid-prop-types": 0,
+    "react/require-default-props": 0,
+    "import/prefer-default-export": 0,
+    "no-shadow": 0,
+    "no-param-reassign": 0,
+    "no-underscore-dangle": 0
+  },
+  "env": {
+    "react-native/react-native": true
+  }
+}
